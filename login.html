@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,300' rel='stylesheet' type='text/css'>
+
+
+    
+
+
+    
+</head>
+<body>
+  
+    
+
+  
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ 
+
+ <div class='ripple-background'>
+  <div class='circle xxlarge shade1'></div>
+  <div class='circle xlarge shade2'></div>
+  <div class='circle large shade3'></div>
+  <div class='circle mediun shade4'></div>
+  <div class='circle small shade5'></div>
+</div>
+
+
+ <form action="index.html" id="form" onsubmit="return validate(redirect)">
+  <div id="mainButton">
+   <div class="btn-text" onclick="openForm()">Sign In</div>
+   <div class="modal">
+     <div class="form-title"><b>Sign In</b></div>
+     <div class="input-group">
+      <input type="text" name="" id="username" onkeyup="validate(redirect)"   required>
+       <label><b>Username</b></label>
+     </div>
+     <label for="error" id="error1"></label>
+      <br>
+
+
+
+     <div class="input-group">
+      <input type="password" id="password"   onkeyup="validate(redirect)" required>
+        
+       <label><b>Password</b></label>
+     </div>
+
+     <label for="error" id="error2"></label>
+    <br>
+    <button type="submit" id="btn" >
+      
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Submit
+    </button>
+    
+     <div class="codepen-by">Created By Nandana Krishnan.s</div>
+   </div>
+ </div>
+ <div class="codepen-by"><b>Created By Nandana Krishnan.s</b></div>
+
+
+ 
+</form>
+
+</body>
+<script src="log.js"></script>
+
+</html>
