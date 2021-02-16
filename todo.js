@@ -30,6 +30,7 @@ $(function () {
                 console.log(count,chkstatus);
                 if (count.length == 6) {
                     resolve("Congrats! 5 Tasks have been successfully completed!");
+                    window.location.href="index.html";
                 }
             });
             promise2
