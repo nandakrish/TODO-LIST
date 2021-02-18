@@ -28,7 +28,7 @@ $(function () {
                    
                 }
                 console.log(count,chkstatus);
-                if (count.length == 6) {
+                if (count.length == 5) {
                     resolve("Congrats! 5 Tasks have been successfully completed!");
                    
                 }
